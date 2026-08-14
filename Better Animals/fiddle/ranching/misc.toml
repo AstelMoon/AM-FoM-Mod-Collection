@@ -1,0 +1,59 @@
+min_heart_level_for_breeding = 1
+
+[heart_points]
+	pet = 10
+	feed = 10
+	go_outside = 10
+	left_outside_penalty = -5
+	normal_feed_bonus = 4
+	quality_feed_bonus = 6
+	deluxe_feed_bonus = 8
+	ultimate_feed_bonus = 10
+	crop_bonus = 10
+	cooked_star_bonuses = [5, 6, 7, 8, 9]
+	child_born = 20
+	toy = 8
+
+[xp]
+	pet = 8
+	feed = 8
+	go_outside = 8
+	gain_heart = 8
+	breed = 16
+
+
+# Tier 0
+[[production_tiers]]
+normal = { count = 1, additional_chance = 0.10 }
+golden = { count = 0, additional_chance = 0.0 }
+MOMIidentify = { hearts_required = 0 }
+
+# Tier 2
+[[production_tiers]]
+normal = { count = 1, additional_chance = 0.40 }
+golden = { count = 0, additional_chance = 0.05 }
+MOMIidentify = { hearts_required = 2 }
+
+# Tier 4
+[[production_tiers]]
+normal = { count = 2, additional_chance = 0.25 }
+golden = { count = 0, additional_chance = 0.05 }
+MOMIidentify = { hearts_required = 4 }
+
+# Tier 6
+[[production_tiers]]
+normal = { count = 3, additional_chance = 0.20 }
+golden = { count = 0, additional_chance = 0.05 }
+MOMIidentify = { hearts_required = 6 }
+
+# Tier 8
+[[production_tiers]]
+normal = { count = 3, additional_chance = 0.20 }
+golden = { count = 0, additional_chance = 0.10 }
+MOMIidentify = { hearts_required = 8 }
+
+# Tier 10
+[[production_tiers]]
+normal = { count = 4, additional_chance = 0.10 }
+golden = { count = 2, additional_chance = 0.15 }
+MOMIidentify = { hearts_required = 10 }

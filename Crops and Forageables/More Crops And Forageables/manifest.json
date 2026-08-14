@@ -1,0 +1,8 @@
+{
+    "name": "More Crops and Forageables",
+    "author": "Astelic Moonlight",
+    "version": "1.0.0",
+    "description": "Increases the drop rate of crops & forageables by x3. Increases the drop rate of bushes by x2.",
+    "minInstallerVersion": "0.15.3",
+    "manifestVersion": 1
+}

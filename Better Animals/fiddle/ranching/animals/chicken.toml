@@ -1,0 +1,6 @@
+[production.male]
+days_to_produce = 2
+
+
+[breeding]
+days_until_adult = 1

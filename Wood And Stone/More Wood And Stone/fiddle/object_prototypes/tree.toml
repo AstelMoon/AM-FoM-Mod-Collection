@@ -1,0 +1,26 @@
+[default]
+wood_items.stage2 = [{ item = "basic_wood", count_range = [3, 6] }]
+wood_items.stage3 = [{ item = "basic_wood", count_range = [4, 8] }]
+wood_items.stage4 = [{ item = "basic_wood", count_range = [5, 10] }]
+wood_items.stage5 = [{ item = "basic_wood", count_range = [7, 14] }]
+MOMIidentify = { day_to_stage = [0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4], max_hitpoints = [1, 2, 2, 4, 5], spawns_bugs = true, wood_items = { stage1 = [], stage2 = [{ item = "basic_wood" }], stage3 = [{ item = "basic_wood" }], stage4 = [{ item = "basic_wood", count_range = [2, 2] }], stage5 = [{ item = "basic_wood", count_range = [2, 2] }] } }
+
+[tree_deep_woods.wood_items]
+	stage1 = []
+	stage2 = [
+    { item = "hard_wood" },
+    { item = "basic_wood", count_range = [3, 6] },
+	]
+	stage3 = [
+    { item = "hard_wood" },
+    { item = "basic_wood", count_range = [4, 8] },
+	]
+	stage4 = [
+    { item = "hard_wood", count_range = [3, 6] },
+    { item = "basic_wood", count_range = [5, 10] },
+	]
+	stage5 = [
+    { item = "hard_wood", count_range = [5, 10] },
+    { item = "basic_wood", count_range = [7, 14] },
+	]
+	MOMIidentify = { wood_items = { stage1 = [], stage2 = [{ item = "hard_wood" },{ item = "basic_wood", count_range = [2, 3] }], stage3 = [{ item = "hard_wood" },{ item = "basic_wood", count_range = [2, 3] }], stage4 = [{ item = "hard_wood", count_range = [1, 2] },{ item = "basic_wood", count_range = [4, 6] }], stage5 = [{ item = "hard_wood", count_range = [1, 3] },{ item = "basic_wood", count_range = [4, 6] }] } }
