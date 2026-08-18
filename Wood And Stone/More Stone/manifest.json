@@ -1,8 +1,8 @@
 {
     "name": "More Stone",
     "author": "Astelic Moonlight",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Small rocks & boulders drop more stone.",
-    "minInstallerVersion": "0.15.3",
+    "minInstallerVersion": "0.15.5",
     "manifestVersion": 1
 }
