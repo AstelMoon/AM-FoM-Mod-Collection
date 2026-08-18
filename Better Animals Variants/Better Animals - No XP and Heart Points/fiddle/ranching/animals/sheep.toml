@@ -1,0 +1,6 @@
+[production.male]
+	days_to_produce = 2
+
+
+[production.female]
+	days_to_produce = 2
