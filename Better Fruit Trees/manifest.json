@@ -1,8 +1,8 @@
 {
     "name": "Better Fruit Trees",
     "author": "Astelic Moonlight",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Fruit trees grow faster, produce more fruit, & regrow fruit faster.",
-    "minInstallerVersion": "0.15.3",
+    "minInstallerVersion": "0.15.5",
     "manifestVersion": 1
 }
