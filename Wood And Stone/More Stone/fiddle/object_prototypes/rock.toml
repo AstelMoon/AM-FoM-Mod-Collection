@@ -61,3 +61,49 @@ MOMIidentify = { drops = [{ item = "ore_stone", count_range = [3, 4] }], hp = 16
 [large_rock_stone_five]
 drops = [{ item = "ore_stone", count_range = [10, 20] }]
 MOMIidentify = { drops = [{ item = "ore_stone", count_range = [3, 4] }], hp = 20, size = [4, 4], offset = [16, 0], mining_xp_gain = 6, minimum_quality = "tier5", spring_sprites = ["spr_dungeon_mines_biome_5_rock_big_t1_spring","spr_dungeon_mines_biome_5_rock_big_t2_spring","spr_dungeon_mines_biome_5_rock_big_t3_spring"], ladder_candidate = false }
+
+# rocks in mines
+[small_dirt_rock_one]
+drops = [
+    { item = "ore_stone", count_range = [3, 3], exclusive = false },
+    { item = "sod", chance = 2, exclusive = false },
+    { item = "clay", chance = 2, exclusive = false },
+    { item = "peat", chance = 2, exclusive = false },
+]
+MOMIidentify = { drops = [{ item = "ore_stone", chance = 25, exclusive = false },{ item = "sod", chance = 0.8, exclusive = false },{ item = "clay", chance = 0.8, exclusive = false },{ item = "peat", chance = 0.8, exclusive = false }], hp = 1, mining_xp_gain = 2, spring_sprites = ["spr_dungeon_mines_biome_1_dirt_rock_small_t1_spring","spr_dungeon_mines_biome_1_dirt_rock_small_t2_spring","spr_dungeon_mines_biome_1_dirt_rock_small_t3_spring"], dungeon_only = true }
+
+[small_dirt_rock_two]
+drops = [
+    { item = "ore_stone", count_range = [3, 3], exclusive = false },
+    { item = "sod", chance = 2.6, exclusive = false },
+    { item = "clay", chance = 2.6, exclusive = false },
+    { item = "peat", chance = 2.6, exclusive = false },
+]
+MOMIidentify = { drops = [{ item = "ore_stone", chance = 25, exclusive = false },{ item = "sod", chance = 1.6, exclusive = false },{ item = "clay", chance = 1.6, exclusive = false },{ item = "peat", chance = 1.6, exclusive = false }], hp = 2, mining_xp_gain = 2, spring_sprites = ["spr_dungeon_mines_biome_2_dirt_rock_small_t1_spring","spr_dungeon_mines_biome_2_dirt_rock_small_t2_spring","spr_dungeon_mines_biome_2_dirt_rock_small_t3_spring"], dungeon_only = true }
+
+[small_dirt_rock_three]
+drops = [
+    { item = "ore_stone", count_range = [3, 3], exclusive = false },
+    { item = "sod", chance = 2.6, exclusive = false },
+    { item = "clay", chance = 2.6, exclusive = false },
+    { item = "peat", chance = 2.6, exclusive = false },
+]
+MOMIidentify = { drops = [{ item = "ore_stone", chance = 25, exclusive = false },{ item = "sod", chance = 1.6, exclusive = false },{ item = "clay", chance = 1.6, exclusive = false },{ item = "peat", chance = 1.6, exclusive = false }], hp = 3, mining_xp_gain = 2, spring_sprites = ["spr_dungeon_mines_biome_3_dirt_rock_small_t1_spring","spr_dungeon_mines_biome_3_dirt_rock_small_t2_spring","spr_dungeon_mines_biome_3_dirt_rock_small_t3_spring"], dungeon_only = true }
+
+[small_dirt_rock_four]
+drops = [
+    { item = "ore_stone", count_range = [3, 3], exclusive = false },
+    { item = "sod", chance = 2.6, exclusive = false },
+    { item = "clay", chance = 2.6, exclusive = false },
+    { item = "peat", chance = 2.6, exclusive = false },
+]
+MOMIidentify = { drops = [{ item = "ore_stone", chance = 25, exclusive = false },{ item = "sod", chance = 1.6, exclusive = false },{ item = "clay", chance = 1.6, exclusive = false },{ item = "peat", chance = 1.6, exclusive = false }], hp = 4, mining_xp_gain = 2, spring_sprites = ["spr_dungeon_mines_biome_4_dirt_rock_small_t1_spring","spr_dungeon_mines_biome_4_dirt_rock_small_t2_spring","spr_dungeon_mines_biome_4_dirt_rock_small_t3_spring"], dungeon_only = true }
+
+[small_dirt_rock_five]
+drops = [
+    { item = "ore_stone", count_range = [3, 3], exclusive = false },
+    { item = "sod", chance = 2.6, exclusive = false },
+    { item = "clay", chance = 2.6, exclusive = false },
+    { item = "peat", chance = 2.6, exclusive = false },
+]
+MOMIidentify = { drops = [{ item = "ore_stone", chance = 25, exclusive = false },{ item = "sod", chance = 1.6, exclusive = false },{ item = "clay", chance = 1.6, exclusive = false },{ item = "peat", chance = 1.6, exclusive = false }], hp = 5, mining_xp_gain = 2, spring_sprites = ["spr_dungeon_mines_biome_5_dirt_rock_small_t1_spring","spr_dungeon_mines_biome_5_dirt_rock_small_t2_spring","spr_dungeon_mines_biome_5_dirt_rock_small_t3_spring"], dungeon_only = true }
