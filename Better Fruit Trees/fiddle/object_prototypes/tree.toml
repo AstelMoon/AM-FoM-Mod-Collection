@@ -28,30 +28,35 @@
 	harvest = "orange"
 	positions = [[-15, -33], [0, -27], [15, -33], [-15, -33], [0, -27], [15, -33]]
 	seasons = ["fall"]
+	regrow_days = 1
 
 # pears
 [tree_pear.fruit_data]
 	harvest = "pear"
 	positions = [[-14, -29], [0, -18], [14, -29], [-14, -29], [0, -18], [14, -29]]
 	seasons = ["summer"]
+	regrow_days = 1
 
 # pomegranates
 [tree_pomegranate.fruit_data]
 	harvest = "pomegranate"
 	positions = [[-17, -33], [-1, -27], [13, -33], [-17, -33], [-1, -27], [13, -33]]
 	seasons = ["winter"]
+	regrow_days = 1
 
 # plum blossoms
 [tree_plum_blossom.fruit_data]
 	harvest = "plum_blossom"
 	positions = [[-15, -30], [0, -46], [15, -30], [-15, -30], [0, -46], [15, -30]]
 	seasons = ["winter"]
+	regrow_days = 1
 
 # coconuts
 [tree_coconut.fruit_data]
 	harvest = "coconut"
 	positions = [[-5, -61], [-13, -47], [4, -46], [-5, -61], [-13, -47], [4, -46]]
 	seasons = ["summer"]
+	regrow_days = 1
 
 
 # grow stages
@@ -59,53 +64,44 @@
 # Cherry growth stage
 [tree_cherry]
     day_to_stage = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-    regrow_days = 1
     MOMIidentify = { stump_id = "stump_cherry", burn_iframes = 600, bird_landing_pos = { stage1 = false, stage2 = false, stage3 = false, stage4 = [0, -41], stage5 = [0, -50] }, offsets = { stage1 = [24, 28], stage2 = [24, 28], stage3 = [24, 25], stage4 = [24, 25], stage5 = [24, 25] }, transparency_boxes = { stage1 = [], stage2 = [], stage3 = [], stage4 = [{ offset = [10, -7], size = [30, 30] }], stage5 = [{ offset = [2, -24], size = [44, 46] }] }, fruit_data = { harvest = "cherry", positions = [[-14, -28], [0, -18], [13, -28]], regrow_days = 3, seasons = ["spring"] }, destruct_sprites = { spring = ["spr_part_farm_tree_leaf_c3_spring"], summer = ["spr_part_farm_tree_leaf_c3_spring"], fall = ["spr_part_farm_tree_leaf_c3_spring"], winter = ["spr_part_farm_tree_leaf_c3_spring"] }, sprites = { stage1 = { spring = ["spr_fruit_cherry_stage1_spring"], summer = ["spr_fruit_cherry_stage1_spring"], fall = ["spr_fruit_cherry_stage1_fall"], winter = ["spr_fruit_cherry_stage1_winter"] }, stage2 = { spring = ["spr_fruit_cherry_stage2_spring"], summer = ["spr_fruit_cherry_stage2_spring"], fall = ["spr_fruit_cherry_stage2_fall"], winter = ["spr_fruit_cherry_stage2_winter"] }, stage3 = { spring = ["spr_fruit_cherry_stage3_spring"], summer = ["spr_fruit_cherry_stage3_spring"], fall = ["spr_fruit_cherry_stage3_fall"], winter = ["spr_fruit_cherry_stage3_winter"] }, stage4 = { spring = ["spr_fruit_cherry_stage4_spring"], summer = ["spr_fruit_cherry_stage4_spring"], fall = ["spr_fruit_cherry_stage4_fall"], winter = ["spr_fruit_cherry_stage4_winter"] }, stage5 = { spring = ["spr_fruit_cherry_stage5_spring"], summer = ["spr_fruit_cherry_stage5_spring"], fall = ["spr_fruit_cherry_stage5_fall"], winter = ["spr_fruit_cherry_stage5_winter"] } } }
 
 # Apple growth stage
 [tree_apple]
     day_to_stage = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-    regrow_days = 1
     MOMIidentify = { stump_id = "stump_apple", fruit_data = { harvest = "apple", positions = [[-14, -28], [0, -18], [13, -28]], regrow_days = 3, seasons = ["fall"] }, offsets = { stage1 = [24, 28], stage2 = [24, 28], stage3 = [24, 25], stage4 = [24, 25], stage5 = [24, 25] }, bird_landing_pos = { stage1 = false, stage2 = false, stage3 = false, stage4 = [0, -41], stage5 = [0, -50] }, sprites = { stage1 = { spring = ["spr_fruit_apple_stage1_spring"], summer = ["spr_fruit_apple_stage1_spring"], fall = ["spr_fruit_apple_stage1_fall"], winter = ["spr_fruit_apple_stage1_winter"] }, stage2 = { spring = ["spr_fruit_apple_stage2_spring"], summer = ["spr_fruit_apple_stage2_spring"], fall = ["spr_fruit_apple_stage2_fall"], winter = ["spr_fruit_apple_stage2_winter"] }, stage3 = { spring = ["spr_fruit_apple_stage3_spring"], summer = ["spr_fruit_apple_stage3_spring"], fall = ["spr_fruit_apple_stage3_fall"], winter = ["spr_fruit_apple_stage3_winter"] }, stage4 = { spring = ["spr_fruit_apple_stage4_spring"], summer = ["spr_fruit_apple_stage4_spring"], fall = ["spr_fruit_apple_stage4_fall"], winter = ["spr_fruit_apple_stage4_winter"] }, stage5 = { spring = ["spr_fruit_apple_stage5_spring"], summer = ["spr_fruit_apple_stage5_spring"], fall = ["spr_fruit_apple_stage5_fall"], winter = ["spr_fruit_apple_stage5_winter"] } }, transparency_boxes = { stage1 = [], stage2 = [], stage3 = [], stage4 = [{ offset = [10, -7], size = [30, 30] }], stage5 = [{ offset = [2, -24], size = [44, 46] }] }, burn_iframes = 600 }
 
 # Orange growth stage
 [tree_orange]
     day_to_stage = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-    regrow_days = 1
     MOMIidentify = { stump_id = "stump_orange", fruit_data = { harvest = "orange", positions = [[-14, -28], [0, -18], [13, -28]], regrow_days = 3, seasons = ["summer"] }, offsets = { stage1 = [24, 28], stage2 = [24, 28], stage3 = [24, 25], stage4 = [24, 25], stage5 = [24, 25] }, bird_landing_pos = { stage1 = false, stage2 = false, stage3 = false, stage4 = [0, -41], stage5 = [0, -50] }, sprites = { stage1 = { spring = ["spr_fruit_orange_stage1_spring"], summer = ["spr_fruit_orange_stage1_spring"], fall = ["spr_fruit_orange_stage1_fall"], winter = ["spr_fruit_orange_stage1_winter"] }, stage2 = { spring = ["spr_fruit_orange_stage2_spring"], summer = ["spr_fruit_orange_stage2_spring"], fall = ["spr_fruit_orange_stage2_fall"], winter = ["spr_fruit_orange_stage2_winter"] }, stage3 = { spring = ["spr_fruit_orange_stage3_spring"], summer = ["spr_fruit_orange_stage3_spring"], fall = ["spr_fruit_orange_stage3_fall"], winter = ["spr_fruit_orange_stage3_winter"] }, stage4 = { spring = ["spr_fruit_orange_stage4_spring"], summer = ["spr_fruit_orange_stage4_spring"], fall = ["spr_fruit_orange_stage4_fall"], winter = ["spr_fruit_orange_stage4_winter"] }, stage5 = { spring = ["spr_fruit_orange_stage5_spring"], summer = ["spr_fruit_orange_stage5_spring"], fall = ["spr_fruit_orange_stage5_fall"], winter = ["spr_fruit_orange_stage5_winter"] } }, transparency_boxes = { stage1 = [], stage2 = [], stage3 = [], stage4 = [{ offset = [10, -7], size = [30, 30] }], stage5 = [{ offset = [2, -24], size = [44, 46] }] }, burn_iframes = 600 }
 
 # Peach growth stage
 [tree_peach]
     day_to_stage = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-    regrow_days = 1
     MOMIidentify = { stump_id = "stump_peach", fruit_data = { harvest = "peach", positions = [[-14, -28], [0, -18], [13, -28]], regrow_days = 3, seasons = ["summer"] }, offsets = { stage1 = [24, 28], stage2 = [24, 28], stage3 = [24, 25], stage4 = [24, 25], stage5 = [24, 25] }, bird_landing_pos = { stage1 = false, stage2 = false, stage3 = false, stage4 = [0, -41], stage5 = [0, -50] }, sprites = { stage1 = { spring = ["spr_fruit_peach_stage1_spring"], summer = ["spr_fruit_peach_stage1_spring"], fall = ["spr_fruit_peach_stage1_fall"], winter = ["spr_fruit_peach_stage1_winter"] }, stage2 = { spring = ["spr_fruit_peach_stage2_spring"], summer = ["spr_fruit_peach_stage2_spring"], fall = ["spr_fruit_peach_stage2_fall"], winter = ["spr_fruit_peach_stage2_winter"] }, stage3 = { spring = ["spr_fruit_peach_stage3_spring"], summer = ["spr_fruit_peach_stage3_spring"], fall = ["spr_fruit_peach_stage3_fall"], winter = ["spr_fruit_peach_stage3_winter"] }, stage4 = { spring = ["spr_fruit_peach_stage4_spring"], summer = ["spr_fruit_peach_stage4_spring"], fall = ["spr_fruit_peach_stage4_fall"], winter = ["spr_fruit_peach_stage4_winter"] }, stage5 = { spring = ["spr_fruit_peach_stage5_spring"], summer = ["spr_fruit_peach_stage5_spring"], fall = ["spr_fruit_peach_stage5_fall"], winter = ["spr_fruit_peach_stage5_winter"] } }, transparency_boxes = { stage1 = [], stage2 = [], stage3 = [], stage4 = [{ offset = [10, -7], size = [30, 30] }], stage5 = [{ offset = [2, -24], size = [44, 46] }] }, burn_iframes = 600 }
 
 # Pear growth stage
 [tree_pear]
     day_to_stage = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-    regrow_days = 1
     MOMIidentify = { stump_id = "stump_pear", fruit_data = { harvest = "pear", positions = [[-14, -28], [0, -18], [13, -28]], regrow_days = 3, seasons = ["fall"] }, offsets = { stage1 = [24, 28], stage2 = [24, 28], stage3 = [24, 25], stage4 = [24, 25], stage5 = [24, 25] }, bird_landing_pos = { stage1 = false, stage2 = false, stage3 = false, stage4 = [0, -41], stage5 = [0, -50] }, sprites = { stage1 = { spring = ["spr_fruit_pear_stage1_spring"], summer = ["spr_fruit_pear_stage1_spring"], fall = ["spr_fruit_pear_stage1_fall"], winter = ["spr_fruit_pear_stage1_winter"] }, stage2 = { spring = ["spr_fruit_pear_stage2_spring"], summer = ["spr_fruit_pear_stage2_spring"], fall = ["spr_fruit_pear_stage2_fall"], winter = ["spr_fruit_pear_stage2_winter"] }, stage3 = { spring = ["spr_fruit_pear_stage3_spring"], summer = ["spr_fruit_pear_stage3_spring"], fall = ["spr_fruit_pear_stage3_fall"], winter = ["spr_fruit_pear_stage3_winter"] }, stage4 = { spring = ["spr_fruit_pear_stage4_spring"], summer = ["spr_fruit_pear_stage4_spring"], fall = ["spr_fruit_pear_stage4_fall"], winter = ["spr_fruit_pear_stage4_winter"] }, stage5 = { spring = ["spr_fruit_pear_stage5_spring"], summer = ["spr_fruit_pear_stage5_spring"], fall = ["spr_fruit_pear_stage5_fall"], winter = ["spr_fruit_pear_stage5_winter"] } }, transparency_boxes = { stage1 = [], stage2 = [], stage3 = [], stage4 = [{ offset = [10, -7], size = [30, 30] }], stage5 = [{ offset = [2, -24], size = [44, 46] }] }, burn_iframes = 600 }
 
 # Plum Blossom growth stage
 [tree_plum_blossom]
     day_to_stage = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-    regrow_days = 1
     MOMIidentify = { stump_id = "stump_plum_blossom", fruit_data = { harvest = "plum", positions = [[-14, -28], [0, -18], [13, -28]], regrow_days = 3, seasons = ["spring"] }, offsets = { stage1 = [24, 28], stage2 = [24, 28], stage3 = [24, 25], stage4 = [24, 25], stage5 = [24, 25] }, bird_landing_pos = { stage1 = false, stage2 = false, stage3 = false, stage4 = [0, -41], stage5 = [0, -50] }, sprites = { stage1 = { spring = ["spr_fruit_plum_blossom_stage1_spring"], summer = ["spr_fruit_plum_blossom_stage1_spring"], fall = ["spr_fruit_plum_blossom_stage1_fall"], winter = ["spr_fruit_plum_blossom_stage1_winter"] }, stage2 = { spring = ["spr_fruit_plum_blossom_stage2_spring"], summer = ["spr_fruit_plum_blossom_stage2_spring"], fall = ["spr_fruit_plum_blossom_stage2_fall"], winter = ["spr_fruit_plum_blossom_stage2_winter"] }, stage3 = { spring = ["spr_fruit_plum_blossom_stage3_spring"], summer = ["spr_fruit_plum_blossom_stage3_spring"], fall = ["spr_fruit_plum_blossom_stage3_fall"], winter = ["spr_fruit_plum_blossom_stage3_winter"] }, stage4 = { spring = ["spr_fruit_plum_blossom_stage4_spring"], summer = ["spr_fruit_plum_blossom_stage4_spring"], fall = ["spr_fruit_plum_blossom_stage4_fall"], winter = ["spr_fruit_plum_blossom_stage4_winter"] }, stage5 = { spring = ["spr_fruit_plum_blossom_stage5_spring"], summer = ["spr_fruit_plum_blossom_stage5_spring"], fall = ["spr_fruit_plum_blossom_stage5_fall"], winter = ["spr_fruit_plum_blossom_stage5_winter"] } }, transparency_boxes = { stage1 = [], stage2 = [], stage3 = [], stage4 = [{ offset = [10, -7], size = [30, 30] }], stage5 = [{ offset = [2, -24], size = [44, 46] }] }, burn_iframes = 600 }
 
 # Pomegranate growth stage
 [tree_pomegranate]
     day_to_stage = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-    regrow_days = 1
     MOMIidentify = { stump_id = "stump_pomegranate", fruit_data = { harvest = "pomegranate", positions = [[-14, -28], [0, -18], [13, -28]], regrow_days = 3, seasons = ["fall"] }, offsets = { stage1 = [24, 28], stage2 = [24, 28], stage3 = [24, 25], stage4 = [24, 25], stage5 = [24, 25] }, bird_landing_pos = { stage1 = false, stage2 = false, stage3 = false, stage4 = [0, -41], stage5 = [0, -50] }, sprites = { stage1 = { spring = ["spr_fruit_pomegranate_stage1_spring"], summer = ["spr_fruit_pomegranate_stage1_spring"], fall = ["spr_fruit_pomegranate_stage1_fall"], winter = ["spr_fruit_pomegranate_stage1_winter"] }, stage2 = { spring = ["spr_fruit_pomegranate_stage2_spring"], summer = ["spr_fruit_pomegranate_stage2_spring"], fall = ["spr_fruit_pomegranate_stage2_fall"], winter = ["spr_fruit_pomegranate_stage2_winter"] }, stage3 = { spring = ["spr_fruit_pomegranate_stage3_spring"], summer = ["spr_fruit_pomegranate_stage3_spring"], fall = ["spr_fruit_pomegranate_stage3_fall"], winter = ["spr_fruit_pomegranate_stage3_winter"] }, stage4 = { spring = ["spr_fruit_pomegranate_stage4_spring"], summer = ["spr_fruit_pomegranate_stage4_spring"], fall = ["spr_fruit_pomegranate_stage4_fall"], winter = ["spr_fruit_pomegranate_stage4_winter"] }, stage5 = { spring = ["spr_fruit_pomegranate_stage5_spring"], summer = ["spr_fruit_pomegranate_stage5_spring"], fall = ["spr_fruit_pomegranate_stage5_fall"], winter = ["spr_fruit_pomegranate_stage5_winter"] } }, transparency_boxes = { stage1 = [], stage2 = [], stage3 = [], stage4 = [{ offset = [10, -7], size = [30, 30] }], stage5 = [{ offset = [2, -24], size = [44, 46] }] }, burn_iframes = 600 }
 
 # Lemon growth stage
 [tree_lemon]
     day_to_stage = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-    regrow_days = 1
     MOMIidentify = { stump_id = "stump_lemon", fruit_data = { harvest = "lemon", positions = [[-14, -28], [0, -18], [13, -28]], regrow_days = 3, seasons = ["summer"] }, offsets = { stage1 = [24, 28], stage2 = [24, 28], stage3 = [24, 25], stage4 = [24, 25], stage5 = [24, 25] }, bird_landing_pos = { stage1 = false, stage2 = false, stage3 = false, stage4 = [0, -41], stage5 = [0, -50] }, sprites = { stage1 = { spring = ["spr_fruit_lemon_stage1_spring"], summer = ["spr_fruit_lemon_stage1_spring"], fall = ["spr_fruit_lemon_stage1_fall"], winter = ["spr_fruit_lemon_stage1_winter"] }, stage2 = { spring = ["spr_fruit_lemon_stage2_spring"], summer = ["spr_fruit_lemon_stage2_spring"], fall = ["spr_fruit_lemon_stage2_fall"], winter = ["spr_fruit_lemon_stage2_winter"] }, stage3 = { spring = ["spr_fruit_lemon_stage3_spring"], summer = ["spr_fruit_lemon_stage3_spring"], fall = ["spr_fruit_lemon_stage3_fall"], winter = ["spr_fruit_lemon_stage3_winter"] }, stage4 = { spring = ["spr_fruit_lemon_stage4_spring"], summer = ["spr_fruit_lemon_stage4_spring"], fall = ["spr_fruit_lemon_stage4_fall"], winter = ["spr_fruit_lemon_stage4_winter"] }, stage5 = { spring = ["spr_fruit_lemon_stage5_spring"], summer = ["spr_fruit_lemon_stage5_spring"], fall = ["spr_fruit_lemon_stage5_fall"], winter = ["spr_fruit_lemon_stage5_winter"] } }, transparency_boxes = { stage1 = [], stage2 = [], stage3 = [], stage4 = [{ offset = [10, -7], size = [30, 30] }], stage5 = [{ offset = [2, -24], size = [44, 46] }] }, burn_iframes = 600 }
 
 # Coconut growth stage
 [tree_coconut]
     day_to_stage = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-    regrow_days = 1
     MOMIidentify = { stump_id = "stump_coconut", fruit_data = { harvest = "coconut", positions = [[-14, -28], [0, -18], [13, -28]], regrow_days = 3, seasons = ["summer"] }, offsets = { stage1 = [24, 28], stage2 = [24, 28], stage3 = [24, 25], stage4 = [24, 25], stage5 = [24, 25] }, bird_landing_pos = { stage1 = false, stage2 = false, stage3 = false, stage4 = [0, -41], stage5 = [0, -50] }, sprites = { stage1 = { spring = ["spr_fruit_coconut_stage1_spring"], summer = ["spr_fruit_coconut_stage1_spring"], fall = ["spr_fruit_coconut_stage1_fall"], winter = ["spr_fruit_coconut_stage1_winter"] }, stage2 = { spring = ["spr_fruit_coconut_stage2_spring"], summer = ["spr_fruit_coconut_stage2_spring"], fall = ["spr_fruit_coconut_stage2_fall"], winter = ["spr_fruit_coconut_stage2_winter"] }, stage3 = { spring = ["spr_fruit_coconut_stage3_spring"], summer = ["spr_fruit_coconut_stage3_spring"], fall = ["spr_fruit_coconut_stage3_fall"], winter = ["spr_fruit_coconut_stage3_winter"] }, stage4 = { spring = ["spr_fruit_coconut_stage4_spring"], summer = ["spr_fruit_coconut_stage4_spring"], fall = ["spr_fruit_coconut_stage4_fall"], winter = ["spr_fruit_coconut_stage4_winter"] }, stage5 = { spring = ["spr_fruit_coconut_stage5_spring"], summer = ["spr_fruit_coconut_stage5_spring"], fall = ["spr_fruit_coconut_stage5_fall"], winter = ["spr_fruit_coconut_stage5_winter"] } }, transparency_boxes = { stage1 = [], stage2 = [], stage3 = [], stage4 = [{ offset = [10, -7], size = [30, 30] }], stage5 = [{ offset = [2, -24], size = [44, 46] }] }, burn_iframes = 600 }
