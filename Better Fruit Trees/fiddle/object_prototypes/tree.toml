@@ -6,13 +6,6 @@
     seasons = ["spring"]
    	regrow_days = 1
 
-# apples
-[tree_apple.fruit_data]
-	harvest = "apple"
-	positions = [[-12, -28], [0, -19], [14, -28], [-12, -28], [0, -19], [14, -28]]
-	seasons = ["fall"]
-	regrow_days = 1
-
 #lemons
 [tree_lemon.fruit_data]
 	harvest = "lemon"
@@ -20,18 +13,11 @@
 	seasons = ["spring"]
 	regrow_days = 1
 
-# peaches
-[tree_peach.fruit_data]
-	harvest = "peach"
-	positions = [[-13, -26], [0, -18], [13, -26], [-13, -26], [0, -18], [13, -26]]
+# coconuts
+[tree_coconut.fruit_data]
+	harvest = "coconut"
+	positions = [[-5, -61], [-13, -47], [4, -46], [-5, -61], [-13, -47], [4, -46]]
 	seasons = ["summer"]
-	regrow_days = 1
-
-# oranges
-[tree_orange.fruit_data]
-	harvest = "orange"
-	positions = [[-15, -33], [0, -27], [15, -33], [-15, -33], [0, -27], [15, -33]]
-	seasons = ["fall"]
 	regrow_days = 1
 
 # pears
@@ -39,6 +25,26 @@
 	harvest = "pear"
 	positions = [[-14, -29], [0, -18], [14, -29], [-14, -29], [0, -18], [14, -29]]
 	seasons = ["summer"]
+	regrow_days = 1
+# peaches
+[tree_peach.fruit_data]
+	harvest = "peach"
+	positions = [[-13, -26], [0, -18], [13, -26], [-13, -26], [0, -18], [13, -26]]
+	seasons = ["summer"]
+	regrow_days = 1
+
+# apples
+[tree_apple.fruit_data]
+	harvest = "apple"
+	positions = [[-12, -28], [0, -19], [14, -28], [-12, -28], [0, -19], [14, -28]]
+	seasons = ["fall"]
+	regrow_days = 1
+
+# oranges
+[tree_orange.fruit_data]
+	harvest = "orange"
+	positions = [[-15, -33], [0, -27], [15, -33], [-15, -33], [0, -27], [15, -33]]
+	seasons = ["fall"]
 	regrow_days = 1
 
 # pomegranates
@@ -55,13 +61,7 @@
 	seasons = ["winter"]
 	regrow_days = 1
 
-# coconuts
-[tree_coconut.fruit_data]
-	harvest = "coconut"
-	positions = [[-5, -61], [-13, -47], [4, -46], [-5, -61], [-13, -47], [4, -46]]
-	seasons = ["summer"]
-	regrow_days = 1
-
+# ----------------------------------------
 # grow stages
 
 # Cherry growth stage
