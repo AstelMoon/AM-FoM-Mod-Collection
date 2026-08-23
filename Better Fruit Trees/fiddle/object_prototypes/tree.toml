@@ -4,24 +4,28 @@
     harvest = "cherry"
     positions = [[-14, -28], [0, -18], [13, -28], [-14, -28], [0, -18], [13, -28]]
     seasons = ["spring"]
+    regrow_days = 1
 
 # apples
 [tree_apple.fruit_data]
 	harvest = "apple"
 	positions = [[-12, -28], [0, -19], [14, -28], [-12, -28], [0, -19], [14, -28]]
 	seasons = ["fall"]
+	regrow_days = 1
 
 #lemons
 [tree_lemon.fruit_data]
 	harvest = "lemon"
 	positions = [[-13, -28], [0, -20], [14, -28], [-13, -28], [0, -20], [14, -28]]
 	seasons = ["spring"]
+	regrow_days = 1
 
 # peaches
 [tree_peach.fruit_data]
 	harvest = "peach"
 	positions = [[-13, -26], [0, -18], [13, -26], [-13, -26], [0, -18], [13, -26]]
 	seasons = ["summer"]
+	regrow_days = 1
 
 # oranges
 [tree_orange.fruit_data]
