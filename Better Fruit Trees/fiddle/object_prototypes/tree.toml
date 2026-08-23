@@ -26,6 +26,7 @@
 	positions = [[-14, -29], [0, -18], [14, -29], [-14, -29], [0, -18], [14, -29]]
 	seasons = ["summer"]
 	regrow_days = 1
+
 # peaches
 [tree_peach.fruit_data]
 	harvest = "peach"
@@ -62,10 +63,26 @@
 	regrow_days = 1
 
 # ----------------------------------------
-# grow stages
+# growth stages
 
 # Cherry growth stage
 [tree_cherry]
+    day_to_stage = [0, 1, 2, 3, 4, 4, 4]
+
+# Lemon growth stage
+[tree_lemon]
+    day_to_stage = [0, 1, 2, 3, 4, 4, 4]
+
+# Coconut growth stage
+[tree_coconut]
+    day_to_stage = [0, 1, 2, 3, 4, 4, 4]
+
+# Pear growth stage
+[tree_pear]
+    day_to_stage = [0, 1, 2, 3, 4, 4, 4]
+
+# Peach growth stage
+[tree_peach]
     day_to_stage = [0, 1, 2, 3, 4, 4, 4]
 
 # Apple growth stage
@@ -76,26 +93,10 @@
 [tree_orange]
     day_to_stage = [0, 1, 2, 3, 4, 4, 4]
 
-# Peach growth stage
-[tree_peach]
-    day_to_stage = [0, 1, 2, 3, 4, 4, 4]
-
-# Pear growth stage
-[tree_pear]
-    day_to_stage = [0, 1, 2, 3, 4, 4, 4]
-
-# Plum Blossom growth stage
-[tree_plum_blossom]
-    day_to_stage = [0, 1, 2, 3, 4, 4, 4]
-
 # Pomegranate growth stage
 [tree_pomegranate]
     day_to_stage = [0, 1, 2, 3, 4, 4, 4]
 
-# Lemon growth stage
-[tree_lemon]
-    day_to_stage = [0, 1, 2, 3, 4, 4, 4]
-
-# Coconut growth stage
-[tree_coconut]
+# Plum Blossom growth stage
+[tree_plum_blossom]
     day_to_stage = [0, 1, 2, 3, 4, 4, 4]
